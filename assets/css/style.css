@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,300&display=swap');
+::selection {
+    background: #e789ac;
+    color: #fff;
+    text-shadow: none;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+}
+
+.tm-page {
+    position: relative;
+    z-index: 0;
+}
+
+.tm-header {
+    padding-top: 10px;
+}
+
+.uk-navbar-nav>li>a {
+    color: #2c282f;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 350;
+    position: relative;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.58;
+}
+
+.uk-navbar-item .uk-icon:hover {
+    color: #7fcac5;
+}
+
+.uk-navbar-nav>li.uk-active>a {
+    color: #e789ac;
+}
+
+.uk-navbar-nav>li>a:before {
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 0%;
+    z-index: 999;
+    height: 2px;
+    background: #e789ac;
+    transition: .3s ease-in-out;
+}
+
+.uk-navbar-nav>li>a:hover:before {
+    width: 100%;
+}
+
+a.animation-link {
+    color: #222328 !important;
+    font-size: 17px;
+    line-height: 26.86px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+a.animation-link:hover {
+    color: #e789ac !important;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+a.animation-link:hover span {
+    transform: translateX(90%);
+    transition: .2s ease-in-out;
+}
+
+#hero .uk-text-background {
+    background-color: #E789AC;
+    color: transparent!important;
+    font-size: 42px;
+    font-family: 'Nunito Sans';
+    line-height: 55.2px;
+}
+
+#hero .uk-heading-medium {
+    font-size: 72px;
+    font-family: 'Kanit', sans-serif;
+    line-height: 79.2px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+#hero .uk-text-lead {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+#hero .uk-button {
+    border: 2px solid #222328;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-family: "Nunito Sans";
+    font-size: 17px;
+    line-height: 56px;
+    position: relative;
+    overflow: hidden;
+    background: transparent;
+    transition: .2s ease-in-out;
+}
+
+#hero .uk-button:hover {
+    border: 2px solid #E789AC;
+    color: #FFF;
+    z-index: 99;
+}
+
+#hero .uk-button::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -100%;
+    height: 100%;
+    width: 100%;
+    transition: .2s ease-in-out;
+    background-color: #E789AC;
+    z-index: -9;
+}
+
+#hero .uk-button:hover::before {
+    left: 0;
+    visibility: visible;
+}
+
+#section-2 .uk-heading-small {
+    color: #222328;
+    font-size: 56px;
+    line-height: 67.2px;
+    font-weight: 300;
+}
+
+.uk-tile-primary {
+    background-color: #F7EFF2;
+}
+
+.uk-tile-secondary {
+    background-color: #e3f3f2;
+}
+
+.uk-marker {
+    background-color: #E478A0;
+}
+
+.product-btn {
+    position: relative;
+    border: 2px solid #7fcac5;
+    overflow: hidden;
+    background-color: #7fcac5 !important;
+    text-transform: capitalize;
+}
+
+.product-btn:hover {
+    color: #7fcac5;
+    z-index: 99;
+}
+
+.product-btn::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -100%;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    visibility: hidden;
+    z-index: -99;
+}
+
+.product-btn:hover::before {
+    transition: .2s;
+    left: 0;
+    visibility: visible;
+}
+
+#watshon-chair .uk-text-large {
+    color: #5f5f63;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+#watshon-chair .uk-heading-small {
+    font-family: "Nunito Sans", sans-serif;
+    color: #222328;
+    font-size: 56px;
+    line-height: 67px;
+    font-weight: 300;
+}
+
+#watshon-chair a {
+    text-decoration: none;
+    color: #e478a0;
+}
+
+#watshon-chair a:hover {
+    color: #7fcac5;
+}
+
+#social_icon a {
+    margin: 10px;
+}
+
+#social_icon a:hover {
+    background-color: #E789AC;
+    color: #fff;
+    transition: all .3s;
+}
+
+#before_footer h1.uk-h5 {
+    text-decoration: none;
+    font-size: 20px;
+    color: #222328;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+/* #before_footer a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #222328;
+    opacity: .7;
+} */
+
+footer h5 {
+    font-size: 20px;
+}
+
+#contact .contact-text-heading {
+    color: #000;
+}
+
+#contact .contact-text {
+    color: #5f5f63;
+}
+
+#contact a.animation-link {
+    text-transform: capitalize;
+}
